@@ -1,0 +1,17 @@
+Package: sphereML
+Type: Package
+Title: Analyzing Students' Performance Dataset in Physics Education Research (SPHERE) using Machine Learning (ML)
+Version: 0.1.0
+Authors@R: c(
+    person("Purwoko Haryadi", "Santoso", email = "purwokoharyadisantoso@unsulbar.ac.id", role = c("aut", "cre"), comment = c(ORCID = "<0000-0002-7093-5309>")),
+    person("Edi", "Istiyono", role = "ctb"),
+    person("Haryanto", "Haryanto", role = "ctb"))
+Maintainer: Purwoko Haryadi Santoso <purwokoharyadisantoso@unsulbar.ac.id>
+Description: A shiny R package facilitating ML based analysis for physics education research (PER) purposes. The data has been made available in the CRAN repository through the spheredata package. SPHERE stands for Students' Performance in Physics Education Research (PER). The students are the eleventh graders learning physics at high school curriculum. We follow the stream of multidimensional students' assessment as probed by some research based assessments (RBAs) in PER. The goal is to predict the students' performance at the end of the learning process. Three learning domains are measured including conceptual understanding, scientific ability, and scientific attitude. Furthermore, demographic backgrounds and potential variables influencing students' performance on physics are also demonstrated. We provide teachers' judgment data as our baseline to compare the predictive results of students' performance between machine learning (ML) based analysis and teacher (human) based judgment. Click on the Tab below to explore the detail of each data further.
+BugReports: https://github.com/santosoph/sphereML/issues
+URL: https://github.com/santosoph/sphereML
+License: MIT + file LICENSE
+Imports: shiny, shinydashboard, spheredata, lavaan, semPlot, CTT, mirt, shinycssloaders, FSelectorRcpp, randomForest, caret,
+    caTools, pROC, GA, psych, readxl
+Encoding: UTF-8
+RoxygenNote: 7.3.2
